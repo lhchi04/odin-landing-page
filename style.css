@@ -1,0 +1,185 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  background-image: url("img/pusheenbg.png");
+  background-blend-mode:soft-light;
+  background-color: coral;
+}
+
+#first, .rec {
+  background-color: rgba(210, 105, 30, 0.8);
+}
+
+#header, #footer {
+  background-color: #8f4814;
+}
+
+#header {
+  display: flex;
+}
+
+#mainhero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 150px;
+  flex-wrap: wrap;
+}
+
+#quote {
+  background-color: rgba(229, 231, 235, 0.8);
+  padding: 50px 200px;
+}
+
+#call {
+  padding: 50px 150px;
+}
+
+#footer {
+  text-align: center;
+  padding: 16px;
+}
+
+#main p {
+  color: #1f2937;
+}
+
+#quote .quoting {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+}
+
+#quote .author {
+  font-size: 24px;
+  color: black;
+  text-align: right;
+  font-weight: bold;
+}
+
+#call .headline {
+  font-size: 24px;
+  color: white;
+}
+
+#call p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logo {
+  margin-right: auto;
+  font-weight: bold;
+  padding-left: 150px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.rec {
+  border-radius: 8px;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.content {
+  margin: 0;
+  max-width: 500px;
+}
+
+.info {
+  max-width: 200px;
+  text-align: center;
+}
+
+.info img {
+  width: 200px;
+  height: 200px;
+  border: #1f2937 3px solid;
+  border-radius: 16px;
+  background-color: #e5e7eb;
+  transform: 450ms;
+}
+
+img:hover, img:focus {
+  transform: scale(1.1);
+  transition: 150ms;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  color: white;
+  gap: 10px;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding-right: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: white;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+img {
+  width: 500px;
+  flex: 1;
+}
+
+button {
+  background-color: brown;
+  color: white;
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 450ms;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: 150ms;
+}
+
+.hero {
+  flex: 1;
+}
+
+
+
+
+
