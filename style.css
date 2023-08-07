@@ -3,7 +3,7 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   margin: 0;
-  font-family: Roboto, sans-serif;
+  font-family: 'Josefin Sans';
   background-image: url("img/pusheenbg.png");
   background-blend-mode:soft-light;
   background-color: coral;
@@ -162,6 +162,7 @@ img {
 }
 
 button {
+  font-family: inherit;
   background-color: brown;
   color: white;
   padding: 8px 30px;
@@ -173,6 +174,8 @@ button {
 button:hover {
   transform: scale(1.1);
   transition: 150ms;
+  background-color: rgba(211, 153, 153, 0.234);
+  color: rgb(126, 29, 29);
 }
 
 .hero {
